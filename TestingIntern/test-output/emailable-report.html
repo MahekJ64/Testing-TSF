@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Testing TSF</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">70,750</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Testing TSF &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">ui.TestingCorporatePartners</td><td><a href="#m0">TestPage</a></td><td rowspan="1">1618858217947</td><td rowspan="1">1682</td></tr><tr><th colspan="4">Testing TSF &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">ui.CountURLs</td><td><a href="#m1">CountAndDisplayURLs</a></td><td rowspan="1">1618858205128</td><td rowspan="1">7434</td></tr><tr class="passedodd"><td rowspan="1">ui.HighlightContact</td><td><a href="#m2">CheckEmail</a></td><td rowspan="1">1618858219637</td><td rowspan="1">8146</td></tr><tr class="passedeven"><td rowspan="1">ui.LogoTesting</td><td><a href="#m3">VerifyLogo</a></td><td rowspan="1">1618858182876</td><td rowspan="1">7305</td></tr><tr class="passedodd"><td rowspan="1">ui.PageJobs</td><td><a href="#m4">VerifyJobsPage</a></td><td rowspan="1">1618858235152</td><td rowspan="1">9062</td></tr><tr class="passedeven"><td rowspan="1">ui.PageLINKS</td><td><a href="#m5">PageTesting</a></td><td rowspan="1">1618858227785</td><td rowspan="1">7365</td></tr><tr class="passedodd"><td rowspan="1">ui.PageWorkshops</td><td><a href="#m6">VerifyPage</a></td><td rowspan="1">1618858190184</td><td rowspan="1">8523</td></tr><tr class="passedeven"><td rowspan="1">ui.TestingInternshipPositions</td><td><a href="#m7">TestPage</a></td><td rowspan="1">1618858198711</td><td rowspan="1">6415</td></tr><tr class="passedodd"><td rowspan="1">ui.TestingVideo</td><td><a href="#m8">PlayVideo</a></td><td rowspan="1">1618858173514</td><td rowspan="1">9352</td></tr><tr class="passedeven"><td rowspan="1">ui.VerifyTitle</td><td><a href="#m9">TestTitle</a></td><td rowspan="1">1618858212565</td><td rowspan="1">5380</td></tr></tbody>
+</table>
+<h2>Testing TSF</h2><h3 id="m0">ui.TestingCorporatePartners#TestPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: MicrosoftEdge=89.0.774.77)
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;LAPTOP-AO93C9A7&apos;, ip: &apos;192.168.29.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 89.0.774.77, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52231}, msedge: {msedgedriverVersion: 89.0.774.77 (db2dad69e2fd38..., userDataDir: C:\Users\HP-PC\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aef5d023fbe8d728ded9f6424e9c37b5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
+	at ui.TestingCorporatePartners.TestPage(TestingCorporatePartners.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">ui.CountURLs#CountAndDisplayURLs</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">ui.HighlightContact#CheckEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">ui.LogoTesting#VerifyLogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">ui.PageJobs#VerifyJobsPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">ui.PageLINKS#PageTesting</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">ui.PageWorkshops#VerifyPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">ui.TestingInternshipPositions#TestPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">ui.TestingVideo#PlayVideo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">ui.VerifyTitle#TestTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
